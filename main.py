@@ -98,7 +98,10 @@ def get_funfact(number: str=None):
         
 
         return ORJSONResponse(uniquenumber_api[1])
-    except Exception as err:
-        return ORJSONResponse(
-            {"error": f"{str(err)}"}
-        )
+    except:
+        if not number or not number.lstrip('-').isdigit():
+            return ORJSONResponse(
+                {   "number": "alphabet",
+                    "error": True
+                    }
+            )
