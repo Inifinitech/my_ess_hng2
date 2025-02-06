@@ -17,7 +17,7 @@ or an Armstrong number, and provides additional details such as its parity (odd/
 1. Clone the repository:
 
    ```
-   git clone https://github.com/Inifinitech/my_ess_hng2.gitgit
+   git clone https://github.com/Inifinitech/my_ess_hng2.git
    ```
 
 2. Install dependencies:
