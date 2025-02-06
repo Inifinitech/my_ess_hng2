@@ -38,7 +38,7 @@ def get_homepage():
             {"error": f"{str(err)}"}, status_code=500
         )
     
-@app.get('/api/classify-number/')
+@app.get('/api/classify-number')
 def get_funfact(number: str=None):
     try:
         # return number
